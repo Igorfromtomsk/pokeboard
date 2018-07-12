@@ -1,0 +1,29 @@
+body, html {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #9badb9;
+  color: #363636;
+  font-family: 'Open Sans', 'Roboto';
+}
+
+.spacer {
+  flex-grow: 2;
+}
+
+app-root {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+app-auth {
+  flex-grow: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
